@@ -51,6 +51,7 @@ const Features = ({ slice }: FeaturesProps): JSX.Element => {
     <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
+      className="my-10"
     >
       <PrismicRichText field={slice.primary.heading} components={components} />
 

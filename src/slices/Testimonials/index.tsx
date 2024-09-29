@@ -49,6 +49,7 @@ const Testimonials = async ({
     <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
+      className="my-10"
     >
       <PrismicRichText field={slice.primary.heading} components={components} />
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-8">
